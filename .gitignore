@@ -1,0 +1,50 @@
+# Dados pessoais — NUNCA commitar
+DOC-*.pdf
+*-WA*.pdf
+documentos_pessoais/
+conteudo_validacao/
+design_anthropic/
+*.zip
+
+# PDFs científicos — referência local, não commit (copyright das editoras)
+papers/*.pdf
+
+# Python
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv/
+venv/
+
+# uv
+.uv/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Screenshots de debug
+assets/debug_*.png
+assets/m*_v*.png
+assets/m*_polish.png
+assets/final_*.png
+assets/ns_*.png
+assets/animacao_*.png
+assets/video_*.png
+assets/hipnograma_*.png
+
+# Playwright
+.playwright-mcp/
+
+# Logs
+*.log
