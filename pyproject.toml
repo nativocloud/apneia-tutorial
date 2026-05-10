@@ -2,12 +2,11 @@
 name = "apneia"
 version = "0.1.0"
 description = "Tutorial educativo sobre SAOS e cirurgia multinível"
-requires-python = ">=3.11,<3.14"
+requires-python = ">=3.11"
 dependencies = [
-    "streamlit>=1.45,<2.0",
-    "plotly>=5.20,<7.0",
-    "pandas>=2.0,<3.0",
-    "streamlit-lottie>=0.0.5,<1.0",
+    "streamlit",
+    "plotly",
+    "pandas",
 ]
 
 [project.optional-dependencies]
