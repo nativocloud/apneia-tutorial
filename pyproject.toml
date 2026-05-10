@@ -1,13 +1,18 @@
 [project]
 name = "apneia"
 version = "0.1.0"
-description = "Add your description here"
-requires-python = ">=3.13"
+description = "Tutorial educativo sobre SAOS e cirurgia multinível"
+requires-python = ">=3.11,<3.14"
 dependencies = [
+    "streamlit>=1.45,<2.0",
+    "plotly>=5.20,<7.0",
+    "pandas>=2.0,<3.0",
+    "streamlit-lottie>=0.0.5,<1.0",
+]
+
+[project.optional-dependencies]
+# Apenas necessários para scripts/validar_com_*.py — não para a app
+validacao = [
     "google-cloud-aiplatform>=1.151.0",
     "google-genai>=1.75.0",
-    "pandas>=3.0.2",
-    "plotly>=6.7.0",
-    "streamlit>=1.57.0",
-    "streamlit-lottie>=0.0.5",
 ]
