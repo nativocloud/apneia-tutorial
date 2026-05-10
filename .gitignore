@@ -48,3 +48,6 @@ assets/hipnograma_*.png
 
 # Logs
 *.log
+
+# uv.lock — Streamlit Cloud usa requirements.txt
+uv.lock
